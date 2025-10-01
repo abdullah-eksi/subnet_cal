@@ -160,14 +160,6 @@ python subnetcal.py 192.168.1.0/24
 | IP kontrol | `python subnetcal.py 127.0.0.1 --check` |
 | CIDR bilgi | `python subnetcal.py --cidr 20` |
 
----
-## ❓ SSS
-**S: Neden bazı ağlarda kullanılabilir IP sayısı 2 eksik?**  
-C: Ağ adresi (.0) ve broadcast adresi (.255) cihazlara atanamaz (istisna bazı özel /31 ve /32 senaryoları).
-
-
-**S: Program neden emoji kullanıyor?**  
-C: Eğitim ve okunabilirlik için; isterseniz `OutputFormatter` içinde düzenleyebilirsiniz.
 
 ---
 ## 🔧 Uyumluluk
